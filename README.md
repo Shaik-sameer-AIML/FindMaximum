@@ -11,7 +11,18 @@ To write a program to find the maximum of a list of numbers.
 ## Program:
 
 i)	# To find the maximum of marks using the list method sort.
-```Python
+```python
+''' 
+Program to mark the maximum of marks using the list method sort
+Developed by: your name: shaik sameer
+RegisterNumber: 21003881
+''' 
+def max_marks(marks):
+    #Write your code here
+    marks.sort()
+    large =marks[-1]
+    return(large)
+max_marks([88, 67, 77, 93, 95, 11, 67, 89, 56, 89])
 
 
 
@@ -19,6 +30,15 @@ i)	# To find the maximum of marks using the list method sort.
 
 ii)	# To find the maximum marks using the list method max().
 ```Python
+''' 
+Program to find the maximum marks using the list method max().
+Developed by: your name: shaik sameer
+RegisterNumber: 21003881
+'''
+def max_marks(marks):
+    # write your code here
+    a=max(marks)
+    return a
 
 
 
@@ -26,6 +46,16 @@ ii)	# To find the maximum marks using the list method max().
 
 iii) # To find the maximum marks without using builtin functions.
 ```Python
+''' 
+Program to the maximum marks without using builtin functions.
+Developed by: your name: shaik sameer
+RegisterNumber: 21003881
+'''
+def max_marks(marks):
+    #Write your code here
+    marks.sort()
+    large=marks[-1]
+    return large
 
 
 
@@ -34,6 +64,11 @@ iii) # To find the maximum marks without using builtin functions.
 ![output](./img/max_marks1.jpg) 
 
 ## Output:
-
+## max1
+![output](https://github.com/Shaik-sameer-AIML/FindMaximum/blob/main/max1.JPG?raw=true) 
+## max2
+![output](https://github.com/Shaik-sameer-AIML/FindMaximum/blob/main/max2.JPG?raw=true)
+## max3
+![output](https://github.com/Shaik-sameer-AIML/FindMaximum/blob/main/max3.JPG?raw=true)
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
